@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=archivo+black&family=archivo&family=montserrat"> 
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/2324fca6ae.js" crossorigin="anonymous"></script>        
+    <title>Exel Painting</title>
+</head>
+
+
+
+<body>
+
+
+<!------------------------------------------Landing Page------------------------------------------------>
+
+
+
+    <section class="header">
+        <nav id="indexmenu">
+            <a href="index.html"><img src="images/logo-min.png"></a> 
+            <div class="nav-links" id="navLinks">
+                <i class="fa-solid fa-xmark" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="https://www.exelpainting.com">Home</a></li>
+                    <li><a href="https://www.exelpainting.com/aboutus">About Us</a></li>
+                    <li><a href="https://www.exelpainting.com/services">Services</a></li>
+                    <li><a href="https://www.exelpainting.com/contactus">Contact Us</a></li>
+                    <li><a href="https://www.facebook.com/people/Exel-Painting/100088952773993/">Facebook</a></li>
+                    <li><a href="https://www.instagram.com/exel_painting/">Instagram</a></li>
+                </ul>
+            </div>
+            <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <div class="content">
+            <h1>Exel Painting</h1>
+            <h3><em>The Most Trusted Painting Company</em></h3>
+        </div>
+    </section>
+
+
+
+<!--------------------------------------------Services----------------------------------------------------->
+
+
+
+<section class="services">
+    <h1>Our Services</h1>
+    <div class="row">
+        <div class="services-col">
+            <h3>Interior Painting</h3>
+            <p>Interior home painting is the easiest ways to make a big change for your home.</p>
+            <a href="https://www.exelpainting.com/services" class="hero-btn">Learn More</a>
+        </div>
+        <div class="services-col">
+            <h3>Exterior Painting</h3>
+            <p>Protect your home from the harshness of the Canadian weather and increase the curb appeal.</p>
+            <a href="https://www.exelpainting.com/services" class="hero-btn">Learn More</a>
+        </div>
+        <div class="services-col">
+            <h3>Commercial Painting</h3>
+            <p>Exel painting offers commercial painting that will work around your business needs to minimize disruptions to your clients and employees.</p>
+            <a href="https://www.exelpainting.com/services" class="hero-btn">Learn More</a>       
+        </div>
+    </div>
+</section>
+
+
+
+<!-----------------------------------------About Our Brand-------------------------------------------------->
+
+
+
+<section class="about-us">
+    <div class="row">
+        <div class="about-col">
+            <h1>More About Our Brand</h1>
+            <p>Exel Painting is dedicated to providing high quality painting services 
+                to homeowners and businesses. With several years of experience, our team 
+                of professionals have the expertise to handle all types of painting projects. 
+                Whether you are looking to refresh your home or get it ready to sell, we have 
+                the knowledge and skills to get the job done well.</p>
+                <a href="https://www.exelpainting.com/aboutus" class="hero-btn brand">Learn More</a>
+            </div>
+        <div class="about-col">
+            <img src="images/paintswatch.jpg">
+        </div>
+    </div>
+</section>
+
+
+
+<!-------------------------------------------Why Choose Us------------------------------------------------>
+
+
+
+<div class="text-wrapper">
+    <h1>Why Choose Us</h1>
+    <h1>Why Choose Us</h1>
+    <h1>Why Choose Us</h1>
+    <h1>Why Choose Us</h1>
+</div>
+
+
+<section class="why-us">
+    <div class="row">
+        <div class="whyus-col">
+            <h1>Are you looking for a painting company for your home or business project? 
+                Then look no further as Exel Painting offers:</h1>
+            <ul>
+                <li>Honesty and Transparency</li>
+                <li>Competitive pricing</li>
+                <li>Reliable customer service</li>
+                <li>Professional experienced team</li>
+                <li>Superior workmanship</li>
+                <li>15 years of experience</li>
+                <li>Lifetime Warranty on interior jobs and 3 year warranty on exterior jobs</li>
+            </ul>
+            <a href="https://www.exelpainting.com/services" class="hero-btn brand">Our Services</a>
+        </div>
+        <div class="whyus-col">
+            <img src="images/paintswatch2.jpg">
+        </div>
+    </div>
+</section>
+
+
+
+<!------------------------------------------Footer-------------------------------------------->
+
+
+
+<section class="footer">
+    <h2>Follow Us</h2>
+    <div class="icons">
+        <a href="https://www.facebook.com/people/Exel-Painting/100088952773993/"><i class="fa-brands fa-facebook"></i></a>
+        <a href="https://www.instagram.com/exel_painting/"><i class="fa-brands fa-instagram"></i></a>
+    </div>
+
+    <h2>Exel Painting</h2>
+    <div class="footer-menu">
+    <ul>
+        <li><a href="https://www.exelpainting.com/aboutus">About</a></li>
+        <li><a href="https://www.exelpainting.com/contactus">Contact</a></li>
+        <li><a href="https://www.exelpainting.com/services">Services</a></li>
+    </ul>
+    </div>
+    <a href="mailto:karim.kosib@gmail.com">karim.kosib@gmail.com</a>
+    <p>(647) 978 3727</p>
+</section>
+
+
+
+<!------------------------------------------- JavaScript for Toggle Menu-------------------------------------->
+
+
+
+<script>
+    var navLinks = document.getElementById("navLinks");
+
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+</script>
+
+</body>
+</html>

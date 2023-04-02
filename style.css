@@ -1,0 +1,722 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'montserrat';
+}
+
+.header{
+    min-height: 100vh;
+    width: 100%; 
+    background-image: linear-gradient(rgba(4,9,30,0.072),rgba(4, 9, 30, 0.072)), url(images/interior3.jpg);
+    background-position: center; 
+    background-size: cover; 
+    position: relative; 
+    
+}
+
+nav{ 
+    display: flex;
+    padding: 1.5% 6%;
+    justify-content: space-between;
+    align-items: center; 
+    background-color: #DCD9D0;
+}
+
+#indexmenu{
+  /*  background-color: #DCD9D0; */
+    height: 5vh;
+}
+
+#indexmenu ul li a{
+    color: #3F4A49;
+}
+
+nav img{
+    width: 50px;
+    background-color: white;
+    border-radius: 20px;
+}
+
+.nav-links{
+    flex: 1;
+    text-align: right;
+
+}
+
+.nav-links ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 2px 20px;
+    position: relative;
+    
+}
+
+.nav-links ul li a{
+    color: #3F4A49;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: 'montserrat';
+    font-weight: 430;
+}
+
+.nav-links ul li::after{
+    content: '';
+    width: 0;
+    height: 2px;
+    background: #495A58;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+}
+
+.nav-links ul li:hover::after{
+    width: 100%;
+}
+
+.content{
+    text-align: center;
+    margin: 150px;
+}
+
+.content h1{
+    color: white;
+    font-size: 110px;
+    font-family: 'montserrat';
+    justify-items: left;
+    text-decoration: underline 2px;
+}
+
+.content h3{
+    color: white;
+    font-size: 35px;
+    font-family: 'montserrat';
+    padding: 3px;
+}
+
+nav .fa-solid{
+    display: none;
+}
+
+@media(max-width: 700px){
+    html, body {
+        overflow-x: hidden;
+    }
+    .nav-links{
+        overflow: hidden;
+    }
+    .content h1{
+        font-size: 70px;
+        margin-left: -120px;
+        text-align: left;
+        text-decoration: underline 2px;
+    }
+    .content h3{
+        font-size: 20px;
+        margin-left: -120px;
+        padding: 0;
+        text-align: left;
+        text-decoration: none;
+    }
+    .nav-links ul li{
+        display: block;
+        padding: 10px;
+    }
+    .nav-links{
+        position: fixed;
+        background: #DCD9D0;
+        height: 100vh;
+        width: 200px;
+        top: 0;
+        right: -200px;
+        text-align: left;
+        z-index: 2;
+        transition: 1s;
+    }
+    nav .fa-solid{
+        display: block;
+        color: #D4967D;
+        margin: 10px;
+        font-size: 22px;
+        cursor: pointer;
+    }
+    .nav-links ul{
+        padding: 20px;
+    }
+}
+
+
+
+/* ---------------------------------------------- Services ------------------------------------------------- */
+
+
+
+.services{
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+    background-color: #D4967D;
+}
+
+.services h1{
+    font-size: 50px;
+    font-weight: 400;
+    color: #3F4A49;
+    font-family: 'archivo black'; 
+}
+
+.row{
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+}
+
+.services-col{
+    flex-basis: 32%;
+    background: white;
+    margin-bottom: 5%;
+    padding: 40px 50px;
+    box-sizing: border-box;
+}
+
+.services-col h3{
+    text-align: left;
+    font-family: 'archivo black';
+    color: #3F4A49;
+    margin: 10px 0;
+}
+
+.services-col p{
+    text-align: left;
+    margin: 10px 0;
+    padding-right: 2px;
+    padding-left: 10px;
+    line-height: 2;
+    color: #3F4A49;
+    font-family: 'montserrat';
+    font-weight: 400;
+}
+
+.hero-btn{
+    display: inline-block;
+    margin: 0 30px;
+    text-decoration: none;
+    border-radius: 30px;
+    color: white;
+    padding: 20px 40px;
+    font-size: 16px;
+    background-color: #D4967D;
+    font-family: 'archivo black';
+}
+
+@media(max-width: 700px){
+    .row{
+        flex-direction: column;
+    }
+    .hero-btn{
+        margin-left: 0px;
+    }
+}
+
+
+
+/* --------------------------------------- More About Brand --------------------------------------------- */
+
+
+
+.about-us{
+    width: 100%;
+    margin: auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #D4967D;
+}
+
+.about-col{
+    flex-basis: 48%;
+    padding: 10px 2px;
+}
+
+.about-col img{
+    width: 100%;
+}
+
+.about-col h1{
+    padding-top: 0;
+    color: white;
+    font-family: 'archivo black';
+    font-size: 60px;
+    padding-bottom: 30px;
+}
+
+.about-col p{
+    padding: 15px 0 35px;
+    line-height: 2.5;
+    color: white;
+}
+
+.brand{
+    margin: auto;
+    background-color: white;
+    color: #D4967D;
+    font-size: 16px;
+}
+
+
+
+/* --------------------------------------------- Why Choose Us ---------------------------------------------- */
+
+
+
+.text-wrapper{
+    display: flex;
+    justify-content: flex-start;
+    background: white;
+    overflow: hidden;
+    margin: 20px;
+}
+
+.text-wrapper h1{
+    font-size: 60px;
+    color: #D4967D;
+    font-family: 'archivo black';
+    white-space: nowrap;
+    padding: 0 3rem;
+    letter-spacing: 1px;
+    animation: move-rtl 10s linear infinite;
+}
+
+@keyframes move-rtl {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(-100%);
+    }
+}
+
+@media(max-width: 700px){
+    .text-wrapper h1{
+        font-size: 30px;
+        padding: 0 1.5rem;
+    }
+}
+
+.why-us{
+    width: 100%;
+    margin: auto;
+    padding-top: 10px;
+    padding-bottom: 50px;
+    background-color: #D4967D;
+}
+
+.whyus-col{
+    flex-basis: 48%;
+    padding: 10px 2px;
+}
+
+.whyus-col img{
+    width: 100%;
+}
+
+.whyus-col h1{
+    padding-top: 0;
+    color: white;
+    font-family: 'montserrat';
+    font-size: 18px;
+    line-height: 2;
+    padding-bottom: 30px;
+}
+
+.whyus-col ul li{
+    padding: 5px;
+    line-height: 2;
+    color: white;
+    margin-left: 20px;
+}
+
+.brand{
+    margin: 30px 0;
+}
+
+
+
+
+
+
+/*------------------------------------------ABOUT US PAGE-----------------------------------------------------*/
+/*------------------------------------------ABOUT US PAGE-----------------------------------------------------*/
+/*------------------------------------------ABOUT US PAGE-----------------------------------------------------*/
+
+
+
+
+
+/*-------------------------------------about us menu and heading-----------------------------------------------*/
+
+
+
+.sub-header{
+    background-color: #3F4A49;
+}
+
+.sub-header h1{
+    margin-top: 80px;
+    margin-left: 40px;
+    color: white;
+    font-family: 'archivo black';
+    font-size: 60px;
+}
+
+.about-us-nav{
+    background-color: #3F4A49;
+}
+
+.about-us-nav ul li a{
+    color: white;
+}
+
+
+
+/*-----------------------------------------about us content-------------------------------------------------*/
+
+
+
+.about-us-page{
+    width: 100%;
+    margin: auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #3F4A49;
+}
+
+.about-us-col{
+    flex-basis: 48%;
+    padding: 0 2px;
+    margin-top: -40px;
+}
+
+.about-us-col p{
+    padding: 0px 0 35px;
+    line-height: 2.5;
+    color: white;
+}
+
+.about-us-col img{
+    width: 80%;
+    margin-left: 100px;
+    margin-top: -100px;
+}
+
+.about-us-col h1{
+    padding-top: 0;
+    color: white;
+    font-family: 'montserrat';
+    font-size: 18px;
+    line-height: 2;
+    padding-bottom: 30px;
+}
+
+.about-us-col ul li{
+    padding: 5px;
+    line-height: 2;
+    color: white;
+    margin-left: 20px;
+}
+
+
+
+/*------------------------------------------------quote----------------------------------------------------------*/
+
+
+
+.quote{
+    background-color: #DCD9D0;
+    margin: auto;
+    padding: 80px;
+}
+
+.quote h1{
+    font-size: 25px;
+    font-family: 'archivo black';
+    color: #3F4A49;
+    text-align: center;
+    padding: 20px;
+    margin: 30px 60px;
+    line-height: 1.7;
+
+}
+
+.quote .hero-btn{
+    margin-left: 41%;
+}
+
+@media(max-width: 700px){
+    .sub-header{
+        overflow-x: hidden;
+    }
+    .about-us-col img{
+        margin: auto;
+        padding-top: 60px;
+    }
+    .quote{
+        margin-top: 0;
+        padding: 20px;
+    }
+    .quote h1{
+        font-size: 15px;
+        margin: auto;
+        justify-content: center;
+    }
+    .quote .hero-btn{
+        margin: 10px 70px;
+        
+    }
+}
+
+
+
+
+
+/*------------------------------------------SERVICES PAGE-----------------------------------------------------*/
+/*------------------------------------------SERVICES PAGE-----------------------------------------------------*/
+/*------------------------------------------SERVICES PAGE-----------------------------------------------------*/
+
+
+/* menu and header */
+
+.services-header{
+    min-height: 70vh;
+    width: 100%; 
+    background-image: linear-gradient(rgba(4,9,30,0.072),rgba(4, 9, 30, 0.072)), url(images/greenroom.jpg);
+    background-position: center; 
+    background-size: cover; 
+    position: relative; 
+}
+
+.services-content h1{
+    color: #D4967D;
+    font-size: 50px;
+    font-family: 'archivo black';
+    justify-items: left;
+    margin-top: 10px;
+    margin-left: 30px;
+}
+
+nav{
+    background-color: transparent;
+}
+
+.nav-links ul li a{
+    color: #D4967D;
+}
+
+/* What we offer */
+
+.servicespage{
+    width: 100%;
+    margin: auto;
+    margin-top: -40px;
+    text-align: center;
+    background-color: #3F4A49;
+}
+
+.servicespage-col{
+    flex-basis: 32%;
+    margin-bottom: 5%;
+    padding: 10px 10px;
+    box-sizing: border-box;
+}
+
+.servicespage-col h3{
+    font-size: 25px;
+    text-align: left;
+    font-family: 'archivo black';
+    color: #D4967D;
+    margin: 10px 0;
+}
+
+.servicespage-col p, ul li{
+    text-align: left;
+    margin: 10px 0;
+    padding-right: 2px;
+    padding-left: 10px;
+    line-height: 2;
+    color: white;
+    font-family: 'montserrat';
+    font-weight: 400;
+}
+
+.servicespage-col ul li{
+    margin-left: 50px;
+}
+
+/* our process */
+
+.process{
+    width: 100%;
+    height: 70vh;
+    background-image: linear-gradient(#3f4a49, #DCD9D0) ;
+}
+
+.process h1{
+    font-size: 60px;
+    margin-left: 40px;
+    margin-bottom: 30px;
+    padding: auto;
+    font-family: 'archivo black';
+    color: white;
+}
+
+.accordion{
+    max-width: 400px;
+    overflow: hidden;
+    background: white;
+    margin-left: 60%;
+    margin-top: -150px;
+}
+
+.accordion__label, .accordion__content{
+    padding: 14px 20px;
+}
+
+.accordion__label{
+    display: block;
+    color: #3F4A49;
+    border: #3F4A49 1px solid;
+    font-family: 'archivo black';
+    font-size: 20px;
+    cursor: pointer;
+    position: relative;
+    transition: background 0.1s;
+}
+
+.accordion__label:hover{
+    background: rgba(0,0,0, 0.1);
+}
+
+.accordion__label::after{
+    content: "";
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 20px;
+    width: 12px;
+    height: 6px;
+    background-image: url('data:image/svg+xml;utf8,<svg width="100" height="50" xmlns="http://www.w3.org/2000/svg"><polygon points="0,0 100,0 50,50" style="fill:%76FFFFFF99;" /></svg>');
+    background-size: contain;
+    transition: transform 0.4s;
+}
+
+.accordion__content{
+    background: white;
+    line-height: 1.6;
+    font-size: 14px;
+    display: none;
+}
+
+.accordion__input{
+    display: none; 
+}
+
+.accordion_p{
+    color: #3F4A49;
+}
+
+.accordion__input:checked ~ .accordion__content{
+    display: block;
+}
+
+.accordion__input:checked ~ .accordion__label::after{
+    transform: translateY(-50%) rotate(0.5turn);
+}
+
+/* gallery */
+
+.gallery{
+
+    background-color: #DCD9D0;
+}
+/* gallery gif */
+
+.gallerybanner{
+    min-height: 50vh;
+    width: 100%; 
+    background-image: url(images/gallery\ title.gif);
+    background-position: center; 
+    background-size: cover; 
+    position: relative; 
+}
+
+/* images */
+
+.gallerygrid{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    grid-gap: 10px;
+    margin: 15px;
+}
+
+.gallery img{
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+
+.galleryimg{
+    padding: 5px;
+}
+
+
+
+/* --------------------------------------------------- Footer ------------------------------------------------*/
+
+
+
+.footer{
+    width: 100%;
+    text-align: center;
+    padding: 30px 0;
+}
+
+.footer h2{
+    color: #3F4A49;
+    font-family: 'archivo black';
+    padding: 5px 20px;
+}
+
+.icons .fa-brands{
+    color: #D4967D;
+    margin: 0 13px;
+    cursor: pointer;
+    padding: 18px 0;
+}
+
+.footer-menu{
+    justify-content: space-between;
+    margin: 2%;
+    padding: 5px;
+}
+
+.footer-menu ul li{
+    list-style: none;
+    display: inline-block;
+    align-items: center;
+    margin: 0 10px;
+}
+
+.footer-menu ul li a{
+    color: #D4967D;
+}
+
+.footer a, p{
+    color: #3F4A49;
+    padding: 20px;
+}
+
+@media(max-width: 700px){
+    .footer-menu ul li{
+        margin: 2px;
+    }
+}

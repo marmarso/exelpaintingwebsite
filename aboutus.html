@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=archivo+black&family=archivo&family=montserrat"> 
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/2324fca6ae.js" crossorigin="anonymous"></script>        
+    <title>Exel Painting - About Us</title>
+</head>
+
+<body>
+
+<!---------------------------------------------about us menu and heading------------------------------------------->
+
+
+
+    <section class="sub-header">
+        <nav class="about-us-nav">
+            <a href="index.html"><img src="images/logo-min.png"></a> 
+            <div class="nav-links" id="navLinks">
+                <i class="fa-solid fa-xmark" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="https://www.exelpainting.com">Home</a></li>
+                    <li><a href="https://www.exelpainting.com/aboutus">About Us</a></li>
+                    <li><a href="https://www.exelpainting.com/services">Services</a></li>
+                    <li><a href="https://www.exelpainting.com/contactus">Contact Us</a></li>
+                    <li><a href="https://www.facebook.com/people/Exel-Painting/100088952773993/">Facebook</a></li>
+                    <li><a href="https://www.instagram.com/exel_painting/">Instagram</a></li>
+                </ul>
+            </div>
+            <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>Who We Are</h1>
+    </section>
+
+
+
+<!-----------------------------------------about us content-------------------------------------------------------->
+
+
+
+<section class="about-us-page">
+    <div class="row">
+        <div class="about-us-col">
+            <p>Exel Painting is a Toronto based painting company that specializes in residential 
+                and commercial painting. With years of experience in the industry, we offer fast, 
+                efficient, and quality work that exceeds expectations.</p>
+            <h1>Are you looking for a painting company for your home or business project? 
+                Then look no further as Exel Painting offers:</h1>
+            <ul>
+                <li>Honesty and Transparency</li>
+                <li>Competitive pricing</li>
+                <li>Reliable customer service</li>
+                <li>Professional experienced team</li>
+                <li>Superior workmanship</li>
+                <li>15 years of experience</li>
+                <li>Lifetime Warranty on interior jobs and 3 year warranty on exterior jobs</li>
+            </ul>
+        </div>
+        <div class="about-us-col">
+            <img src="images/cntowerarch.png">
+        </div>
+    </div>
+</section>
+<div class="quote">
+    <h1>Exel Painting is dedicated to providing high quality painting services to homeowners 
+        and businesses. With several years of experience, our team of professionals have the 
+        expertise to handle all types of painting projects. Whether you are looking to refresh 
+        your home or get it ready to sell, we have the knowledge and skills to get the job done well.</h1>
+    <a href="https://www.exelpainting.com/services" class="hero-btn aboutusbtn">Our Services</a>
+</div>
+
+
+
+
+
+
+
+<!-------------------------------------------------Footer--------------------------------------------------------->
+
+
+
+<section class="footer">
+    <h2>Follow Us</h2>
+    <div class="icons">
+        <a href="https://www.facebook.com/people/Exel-Painting/100088952773993/"><i class="fa-brands fa-facebook"></i></a>
+        <a href="https://www.instagram.com/exel_painting/"><i class="fa-brands fa-instagram"></i></a>
+    </div>
+
+    <h2>Exel Painting</h2>
+    <div class="footer-menu">
+    <ul>
+        <li><a href="https://www.exelpainting.com/aboutus">About</a></li>
+        <li><a href="https://www.exelpainting.com/contactus">Contact</a></li>
+        <li><a href="https://www.exelpainting.com/services">Services</a></li>
+    </ul>
+    </div>
+    <a href="mailto:karim.kosib@gmail.com">karim.kosib@gmail.com</a>
+    <p>(647) 978 3727</p>
+</section>
+
+
+
+<!------------------------------------------- JavaScript for Toggle Menu-------------------------------------->
+
+
+
+<script>
+    var navLinks = document.getElementById("navLinks");
+
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+</script>
+
+</body>
+</html>

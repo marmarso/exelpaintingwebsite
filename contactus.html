@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/2324fca6ae.js" crossorigin="anonymous"></script>  
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=archivo+black&family=archivo&family=montserrat">
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        body{
+            background-color: #D4967D;
+        }
+
+        #contactmenu ul li a{
+            color: white;
+        }
+/* left side */
+
+        .left-column{
+            width: 90%;
+            margin: auto;
+        }
+        .left-column h1{
+           color: #fff;
+           font-family: 'archivo black';
+           font-size: 50px;
+           margin-bottom: 30px;
+       }
+       .left-column .subheader, .freequotes{
+           color: #fff;
+           font-family: 'montserrat';
+           font-size: 20px;
+           line-height: 2;
+       }
+       .left-column p{
+           color: #fff;
+           font-family: 'montserrat';
+           font-size: 18px;
+           line-height: 2;
+           margin-top: 30px;
+       }
+
+ /* contact form */
+       .contact-box{
+           width: 500px;
+           background-color: #D4967D;
+           margin-top: 80px;
+           top: 50%;
+           left: 50%;
+           transform: translate(20%, -50%);
+           position: absolute;
+           box-sizing: border-box;
+       }
+       form{
+           margin: 35px;
+           box-sizing: border-box;
+       }
+       .input-field{
+           width: 400px;
+           height: 40px;
+           margin-top: 20px;
+           padding-left: 10px;
+           padding-right: 10px;
+           border: 1px solid #eebaa6;
+           outline: none;
+           box-sizing: border-box;
+       }
+       .textarea-field{
+           height: 150px;
+           padding-top: 10px;
+           box-sizing: border-box;
+       }
+
+        
+/* button */
+        .btn{
+            border-radius: 50px;
+            color: #fff;
+            margin-top: 18px;
+            padding: 20px;
+            font-size: 18px;
+            border: none;
+            cursor: pointer;
+        }
+        .contact-box .btn{
+            font-family: 'archivo black';
+            background-color: #fff;
+            color: #D4967D;
+        }
+
+        @media(max-width: 700px){
+            .left-column{
+               margin: auto;
+               padding: auto;
+               position: relative;
+            }
+            .left-column h1{
+                font-size: 45px;
+                margin-top: 30px;
+            }
+            .left-column .subheader{
+                padding: auto;
+                margin-left: -10px;
+                font-size: 20px;
+            }
+            .contact-box{
+                width: 250px;
+                top: 125%;
+                left: -15%;
+            }
+            form{
+                width: 250px;
+            }
+            .contact-box .input-field{
+                width: 250px;
+                display: block;
+            }
+            .contact-box .textarea-field{
+                width: 250px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+
+
+    <!---------------------------------------------menu------------------------------------------->
+
+
+
+<section class="sub-header">
+    <nav class="about-us-nav" style="background-color: #D4967D;">
+        <a href="index.html"><img src="images/logo-min.png"></a> 
+        <div class="nav-links" id="contactmenu" id="navLinks">
+            <i class="fa-solid fa-xmark" onclick="hideMenu()"></i>
+            <ul>
+                <li><a href="https://www.exelpainting.com">Home</a></li>
+                <li><a href="https://www.exelpainting.com/aboutus">About Us</a></li>
+                <li><a href="https://www.exelpainting.com/services">Services</a></li>
+                <li><a href="https://www.exelpainting.com/contactus">Contact Us</a></li>
+                <li><a href="https://www.facebook.com/people/Exel-Painting/100088952773993/">Facebook</a></li>
+                <li><a href="https://www.instagram.com/exel_painting/">Instagram</a></li>
+            </ul>
+        </div>
+        <i class="fa-solid fa-bars" onclick="showMenu()" style="color: #fff;"></i>
+    </nav>
+</section>
+
+<!------------------------------------------------content--------------------------------------------------->
+
+
+    <!--left side-->
+    <div class="left-column">
+        <h1>Contact Us</h1>
+        <p class="subheader">Send Your questions with brief description of 
+                            <br>what you're looking for.
+                            You can expect a <br>response within 24 hours!</p>
+        <p class="freequotes">We do free quotes!</p>
+        <p>karim.kosib@gmail.com <br>647 - 978 - 3727</p>
+    </div> 
+
+
+    <!-- contact form -->
+
+    <div class="contact-box">
+        <form action="https://formsubmit.co/sungmiah@gmail.com" method="POST">
+            <!--Honeypot-->
+            <input type="text" name="_honeypot" style="display: none;">
+            <!--Disable Captcha-->
+            <input type="hidden" name="_captcha" value="false">
+            <!--Sent Successfully page-->
+            <input type="hidden" name="_next" value="https://www.exelpainting.com/success.html">
+    <!--actual contact form-->
+            <input type="text" class="input-field" name="Name" placeholder="Your Name" required>
+            <input type="email" class="input-field" name="Email" placeholder="Your Email" required>
+            <input type="text" class="input-field" name="Subject" placeholder="Your Subject">
+            <textarea type="text" class="input-field textarea-field" name="comments,&nbsp;questions" placeholder="Your Message" required></textarea>
+            <button type="submit" class="btn">Send</button>
+        </form>
+    </div>
+
+
+
+<!-------------------------------------------------Footer--------------------------------------------------------
+
+
+
+<section class="footer" style="background-color: #fff; margin-top: 90px;">
+    <h2>Follow Us</h2>
+    <div class="icons">
+        <a href="https://www.facebook.com/people/Exel-Painting/100088952773993/"><i class="fa-brands fa-facebook"></i></a>
+        <a href="https://www.instagram.com/exel_painting/"><i class="fa-brands fa-instagram"></i></a>
+    </div>
+
+    <h2>Exel Painting</h2>
+    <div class="footer-menu">
+    <ul>
+        <li><a href="https://www.exelpainting.com/aboutus">About</a></li>
+        <li><a href="https://www.exelpainting.com/contactus">Contact</a></li>
+        <li><a href="https://www.exelpainting.com/services">Services</a></li>
+    </ul>
+    </div>
+    <a href="mailto:karim.kosib@gmail.com">karim.kosib@gmail.com</a>
+    <p>(647) 978 3727</p>
+</section> -->
+
+
+
+<!------------------------------------------- JavaScript for Toggle Menu-------------------------------------->
+
+
+
+<script>
+    var navLinks = document.getElementById("navLinks");
+
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+</script>
+
+</body>
+
+
+
+</html>

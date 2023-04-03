@@ -1,7 +1,7 @@
 *{
     margin: 0;
     padding: 0;
-    font-family: 'montserrat';
+    font-family: 'Montserrat';
 }
 
 .header{
@@ -55,7 +55,7 @@ nav img{
     color: #3F4A49;
     text-decoration: none;
     font-size: 20px;
-    font-family: 'montserrat';
+    font-family: 'Montserrat';
     font-weight: 430;
 }
 
@@ -81,7 +81,7 @@ nav img{
 .content h1{
     color: white;
     font-size: 110px;
-    font-family: 'montserrat';
+    font-family: 'Montserrat';
     justify-items: left;
     text-decoration: underline 2px;
 }
@@ -89,7 +89,7 @@ nav img{
 .content h3{
     color: white;
     font-size: 35px;
-    font-family: 'montserrat';
+    font-family: 'Montserrat';
     padding: 3px;
 }
 
@@ -162,7 +162,7 @@ nav .fa-solid{
     font-size: 50px;
     font-weight: 400;
     color: #3F4A49;
-    font-family: 'archivo black'; 
+    font-family: 'Archivo Black'; 
 }
 
 .row{
@@ -182,7 +182,7 @@ nav .fa-solid{
 
 .services-col h3{
     text-align: left;
-    font-family: 'archivo black';
+    font-family: 'Archivo Black';
     color: #3F4A49;
     margin: 10px 0;
 }
@@ -194,7 +194,7 @@ nav .fa-solid{
     padding-left: 10px;
     line-height: 2;
     color: #3F4A49;
-    font-family: 'montserrat';
+    font-family: 'Montserrat';
     font-weight: 400;
 }
 
@@ -207,7 +207,7 @@ nav .fa-solid{
     padding: 20px 40px;
     font-size: 16px;
     background-color: #D4967D;
-    font-family: 'archivo black';
+    font-family: 'Archivo Black';
 }
 
 @media(max-width: 700px){
@@ -245,7 +245,7 @@ nav .fa-solid{
 .about-col h1{
     padding-top: 0;
     color: white;
-    font-family: 'archivo black';
+    font-family: 'Archivo Black';
     font-size: 60px;
     padding-bottom: 30px;
 }
@@ -280,7 +280,7 @@ nav .fa-solid{
 .text-wrapper h1{
     font-size: 60px;
     color: #D4967D;
-    font-family: 'archivo black';
+    font-family: 'Archivo Black';
     white-space: nowrap;
     padding: 0 3rem;
     letter-spacing: 1px;
@@ -323,7 +323,7 @@ nav .fa-solid{
 .whyus-col h1{
     padding-top: 0;
     color: white;
-    font-family: 'montserrat';
+    font-family: 'Montserrat';
     font-size: 18px;
     line-height: 2;
     padding-bottom: 30px;
@@ -365,7 +365,7 @@ nav .fa-solid{
     margin-top: 80px;
     margin-left: 40px;
     color: white;
-    font-family: 'archivo black';
+    font-family: 'Archivo Black';
     font-size: 60px;
 }
 
@@ -412,7 +412,7 @@ nav .fa-solid{
 .about-us-col h1{
     padding-top: 0;
     color: white;
-    font-family: 'montserrat';
+    font-family: 'Montserrat';
     font-size: 18px;
     line-height: 2;
     padding-bottom: 30px;
@@ -439,7 +439,7 @@ nav .fa-solid{
 
 .quote h1{
     font-size: 25px;
-    font-family: 'archivo black';
+    font-family: 'Archivo Black';
     color: #3F4A49;
     text-align: center;
     padding: 20px;
@@ -498,7 +498,7 @@ nav .fa-solid{
 .services-content h1{
     color: #D4967D;
     font-size: 50px;
-    font-family: 'archivo black';
+    font-family: 'Archivo Black';
     justify-items: left;
     margin-top: 10px;
     margin-left: 30px;
@@ -532,7 +532,7 @@ nav{
 .servicespage-col h3{
     font-size: 25px;
     text-align: left;
-    font-family: 'archivo black';
+    font-family: 'Archivo Black';
     color: #D4967D;
     margin: 10px 0;
 }
@@ -544,7 +544,7 @@ nav{
     padding-left: 10px;
     line-height: 2;
     color: white;
-    font-family: 'montserrat';
+    font-family: 'Montserrat';
     font-weight: 400;
 }
 
@@ -565,7 +565,7 @@ nav{
     margin-left: 40px;
     margin-bottom: 30px;
     padding: auto;
-    font-family: 'archivo black';
+    font-family: 'Archivo Black';
     color: white;
 }
 
@@ -585,7 +585,7 @@ nav{
     display: block;
     color: #3F4A49;
     border: #3F4A49 1px solid;
-    font-family: 'archivo black';
+    font-family: 'Archivo Black';
     font-size: 20px;
     cursor: pointer;
     position: relative;
@@ -701,7 +701,7 @@ nav{
     
     .gallerybanner h1{
         display: block;
-        font-family: 'archivo black';
+        font-family: 'Archivo Black';
         color: #D4967D;
         text-align: center;
         align-items: center;
@@ -737,7 +737,7 @@ nav{
 
 .footer h2{
     color: #3F4A49;
-    font-family: 'archivo black';
+    font-family: 'Archivo Black';
     padding: 5px 20px;
 }
 
